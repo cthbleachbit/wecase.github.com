@@ -34,10 +34,10 @@ a{
 	position:fixed;
 }
 h1.title{
-	color:#fff;
-	font-size:80px;
-	padding:0px 0px 20px 20px;
-	background:#000;
+	color: #FFF;
+	font-size: 80px;
+	padding: 0px 0px 20px 20px;
+	background-color: #dc4814;
 }
 h1.title span{
 	display:block;
