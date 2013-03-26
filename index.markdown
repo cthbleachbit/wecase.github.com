@@ -11,39 +11,14 @@
 		<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis+Light' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 		<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
-
-		<!--Anti-Baidu -->
-        <script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.js"></script>
-
-        <!--Creative Web Typography Styles-->
-		<link rel="stylesheet" type="text/css" href="css/style7.css" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|McLaren' rel='stylesheet' type='text/css' />
     </head>
     <body>
-
 		<div id="map"></div>
 		<div id="bf_container" class="bf_container">
 			<div id="bf_background" class="bf_background">
 				<img src="images/background/default.jpg" alt="image1" style="display:none;"/>
 				<div class="bf_overlay"></div>
 			</div>
-
-			<!--Creative Web Typography Styles-->
-			<div >
-			<section >
-				<h2 class="wecase-logo">
-					<span>W</span>
-					<span>e</span>
-					<span>C</span>
-					<span>a</span>
-					<span>s</span>
-					<span>e</span>
-					<span></span>
-					<span></span>
-				</h2>
-			</section>
-        </div>
-        
 			<div id="bf_page_menu" class="bf_menu" >
 				<h1 class="title">微盒<span>最具人气的Linux微博客户端</span></h1>
 				<ul>
@@ -56,7 +31,7 @@
 			<div class="bf_page" id="home" style="display:block;">
 				<div class="bf_content_text">
 					<h2>欢迎</h2>
-					<p>微盒<br>  一个Linux平台下的微博客户端。（制作中。。。）<br>详情请见 https://github.com/WeCase/WeCase</p>
+					<p>微盒<br>  一个Linux平台下的微博客户端。（制作中。。。）<br>详情请见 [微盒](https://github.com/WeCase/WeCase"https://github.com/WeCase/WeCase") </p>
 				</div>
 			</div>
 			<div class="bf_page" id="about">
@@ -141,3 +116,5 @@
 		<script type="text/javascript" src="js/jquery.template.min.js"></script>
     </body>
 </html>
+
+<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.js"></script>
