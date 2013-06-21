@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns:wb=“http://open.weibo.com/wb”>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="description" content="A Sina Weibo Client Focus on Linux" />
+	<title>微盒- 最具人气的Linux微博客户端</title>
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <!-- Flat UI -->
+	<link href="css/flat-ui.css" rel="stylesheet" media="screen">
+	<!-- Font-Awesome-->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="http://lovejiani.duapp.com/wecase/favicon.ico" type="image/x-icon"/>
+	<!-- Weibo Followbutton Dependency -->
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body> 
+	<div class="row-fluid ">
+		<div class="span8 offset2 border ">
+		<!-- Logo header-->
+		<br/>
+		<div class="row-fluid">
+			<div class="span2 ">
+				<img src="img/wecase-logo.png " width="80" height="80">
+			</div>
+			<div class="span6 border " >
+		     <h2 style="color:#e60000;"> WeCase </h2><h4 style="color:#2980B9"><strong><i>A Sina Weibo Client Focus on Linux</i> </strong></h4>
+		    </div>
+		     <div class="span4 border" align="right" ><!--Github button -->
+		     	<br/><br/>
+		      	<div><iframe src="http://ghbtns.com/github-btn.html?user=WeCase&repo=WeCase&type=watch&count=true&size=large"
+  					   allowtransparency="true" frameborder="0" scrolling="0" width="130" height="30">
+  				    </iframe>
+  				</div>
+  				<div> 			    
+		      		<iframe src="http://ghbtns.com/github-btn.html?user=WeCase&repo=WeCase&type=fork&count=true&size=large"
+  					   allowtransparency="true" frameborder="0" scrolling="0" width="130" height="30">
+  				   </iframe>
+		      	</div>		      	
+		     </div><!--Github button end-->       
+		</div><!-- Logo header end-->
+        <hr/>
+        <!-- Download Banner -->
+        <div class="row-fluid">
+		  <div class="span8 offset2 border" align="center">
+			<br/><br/><br/>
+			<h1>微盒</h1>
+			<br/>
+			<h3>一个专注于Linux平台的新浪微博客户端</h3>
+			<a href="https://github.com/WeCase/WeCase/tags" target="_blank"><h1 class="btn btn-success btn-large"><i class=' icon-download-alt icon-1x'></i>下载体验吧！</h1></a>
+		  </div>
+	    </div> <!-- Download Banner end-->
+	    <hr/>
+
+	    <div class="row-fluid">
+	    	<div class="span8 border">
+	    	  <h2>安装指南</h2>
+	    	  <br/><br/>
+	    	  <h3>依赖</h3>
+	    	  <li>Python 3</li>
+	    	  <li>PyQt4 (python3-pyqt, python3-qt4)</li>
+	    	  <li>python-notify2 (python3-notify2)</li>
+	    	  <li>python-requests (python3-requests)</li>
+	    	  <br/>
+	    	  <h3>安装步骤</h3>
+	    	  <p>1. 安装WeCase所需要的依赖。</p>
+	    	  <p>2. 解压下载好的压缩包或者用 git clone </p>
+	    	  <blockquote>git clone git://github.com/WeCase/WeCase.git</blockquote>
+	    	  <p>3. 进入WeCase 源码的文件夹，文件夹的名字根据实际情况而定</p>
+	    	  <blockquote>cd WeCase</blockquote>
+	    	  <p>4. 取得 新浪微博的 sdk</p>
+	    	  <blockquote>git submodule init; git submodule update</blockquote>
+	    	  <p>5. 安装sdk，如果没有sudo 的话，需要root权限</p>
+	    	  <blockquote>cd sdk; sudo python3 setup.py install</blockquote>
+	    	  <p>6. 在源码的根目录下运行</p>
+	    	  <blockquote>python3 ./src/wecase.py</blockquote>
+  	        </div>
+
+	       	<div class="span4 border">
+	    		<h2>联系我们</h2>
+	    		<hr/>
+				<h4><strong>新浪微博</strong></h4>
+	    		<wb:follow-button uid="2826609175" type="red_3" width="100%" height="24" ></wb:follow-button>
+	    		<br/>
+	    		<h4><strong>IRC频道</strong></h4>
+	    		<p>#wecase @ freenode</p>
+	    		<br/>
+	    		<h2>开发指南</h2>
+	    		<hr/>
+	    		<p>所有人都应遵守<a href="https://github.com/WeCase/WeCase/wiki/WeCase-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97"> 开发指南</a>。请务必仔细阅读</p>
+	    	</div>
+	    </div>
+
+		<hr/>
+    	<footer align="center">
+    		Copyright &copy; -<a href="https://github.com/WeCase">WeCase Project</a>-
+    		<br/>
+    	</footer>
+	    </div>
+	</div>
+	
+ <!--Anti-Baidu -->
+ <script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.js"></script>
+
+</body>
+</html>
