@@ -4,14 +4,15 @@
  * 
  */
 
-body
-{
-  font-family: 'Averia Libre', cursive; 
 
-}
 
 blockquote{
 	font-family: 'Source Code Pro', sans-serif;
+	border-left: 0.4em solid #ddd;
+    margin: 15px 0;
+    padding: 0 15px;
+    color: #000;
+    background-color:#edeff1;
 }
 
 p{
