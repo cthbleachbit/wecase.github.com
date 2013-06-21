@@ -1,0 +1,19 @@
+/*!
+ * 
+ * 方便给网站添加独立的CSS
+ * 
+ */
+
+body
+{
+  font-family: 'Averia Libre', cursive; 
+
+}
+
+blockquote{
+	font-family: 'Source Code Pro', sans-serif;
+}
+
+p{
+	font-size: 16px;
+}
